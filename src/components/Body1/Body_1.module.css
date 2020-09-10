@@ -1,0 +1,124 @@
+.container{
+    position:relative;
+    width: 100%;
+    height: 721px;
+}
+.Space{
+    width:1519px;
+    height:100px;
+    background:blue;
+    position:relative;
+    z-index:-2;
+}
+
+.YellowLineImg{
+    background:url('/images/Yellowline.png');
+    width: 1px;
+    height: 120px;
+    position:absolute;
+    left: 50%;
+    top:0;
+}
+
+.OUR_SERVICES{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #f7ac53;
+    margin-bottom: 0;
+    position: relative;
+    top: 15px;
+}
+
+.background{
+    background:url('/images/BackgroundBody1.png');
+    position:absolute;
+    top:0;
+    width:100%;
+    height:100%;
+    z-index: -1;
+}
+
+.Our_Team_wil_Take_your_business{    
+        font-size: 80px;
+        font-family: "Merriweather";
+        color: #fff;
+        margin:0;
+        line-height: 1.625;
+        text-align: center;
+        -moz-transform: matrix( 0.5,0,0,0.5,0,0);
+        -webkit-transform: matrix( 0.5,0,0,0.5,0,0);
+        -ms-transform: matrix( 0.5,0,0,0.5,0,0);
+        
+    }
+      
+.Strategylogo{
+    background:url('/images/strategyLogo.png');
+    width:50px;
+    height:20px;
+    background-repeat: no-repeat;
+}
+
+
+.Strategy{
+
+    font-size: 38px;
+    font-family: "Merriweather";
+    color: #fff;
+    margin: 10px 0;
+   
+}
+.Ship_it_user_story_iterate_engaging_co_working_ {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(187, 187, 187);
+    /*width:74%;*/
+    margin-bottom: 45px;
+    
+}
+  
+.SEE_DETAILS{
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 70px;
+}
+.Arrow_Img{
+    background-image: url("/images/ArrowSignImg.png");
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    top: 5px;
+    left: 97px;
+}
+
+.Brandinglogo{
+    background:url('/images/BrandingLogo.png');
+    width:50px;
+    height:20px;
+    background-repeat: no-repeat;
+}
+
+.Designlogo{
+    background:url('/images/DesignLogo.png');
+    width:50px;
+    height:20px;
+    background-repeat: no-repeat;
+}
+
+.flexContainer{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 10px;
+}
+
+.Box{
+ flex-basis: 27%;
+}
+
+

@@ -1,0 +1,156 @@
+.Container{
+    width:100%;
+    height:100%;
+}
+
+.background{
+    background:url('/images/FooterBackground.png');
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.YellowLineImg{
+    background:url('/images/Yellowline.png');
+    width: 1px;
+    height: 120px;   
+}
+
+.ContactUs{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #f7ac53;
+    margin: 13px 0;
+}
+
+.LetsTalkAbout{
+    font-size: 38px;
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    color: white;
+    line-height: 1.636;
+    margin-top: 15px;
+    margin-bottom: 68px;
+
+}
+
+.form{
+    background: #181818;
+    width: 50%;
+    margin-bottom: 5%;
+    box-shadow: 3px 3px 3px 6px #181818;
+
+}
+
+.Labels{
+    flex-basis:40%;
+    font-family: 'Open Sans';
+    color:white;
+    font-size: 12px;
+    margin-top: 40px; 
+}
+
+.Inputs{
+    flex-basis: 40%;
+    background: #181818;
+    border: 0;
+    border-bottom: 1px solid #5c5c5c;
+    margin-bottom: 25px;
+}
+
+
+.flex2{
+    display:flex;
+    justify-content: space-around;
+}
+
+.Message{
+    flex-basis: 90%;
+    font-family: 'Open Sans';
+    color: white;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.LastInput{
+    flex-basis: 89%;
+    background: #181818;
+    border: 0;
+    border-bottom: 1px solid #5c5c5c;
+    margin: 5px 0;
+}
+
+.ButtonContainer{
+    display:flex;
+    justify-content: center;
+    margin:40px 0;
+    
+}
+
+.ButtonContainer button{
+    border-radius: 0;
+    background: #feb960;
+    padding: 20px 25px;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: 1px solid transparent;
+    transition-duration: 1s;
+}
+.ButtonContainer button:hover{
+
+    background:white;
+    border:1px solid #181818;
+    color:#181818;
+    cursor: pointer;
+}
+
+
+.ButtonContainer button img{
+    margin-left: 6px;
+    height: 9px;
+
+}
+
+
+.flex3{
+    display:flex;
+    width:50%;
+    justify-content: space-around;
+    margin-bottom: 2%;
+}
+
+.box{
+    flex-basis: 17%;
+}
+.box_img{
+    
+}
+
+.FirstBoxImg{
+    
+    margin-top: 35%;
+}
+
+.BoxTitle{
+    font-family: 'Open Sans';
+    color:white;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.address{
+    font-family: 'Open Sans';;
+    color:#8d8d8d;
+    font-size:11px;   
+}
+
+.SocialMediaLogos{
+    display:flex;
+    justify-content: space-between;
+    margin-top:10%;
+}

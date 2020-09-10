@@ -1,0 +1,38 @@
+.slick-slider {
+    height: 525px;
+    width: 50%;
+    background: url(/images/SliderProjectPage.png);
+    margin: 0 auto;
+}
+
+
+
+.slick-dots {
+    bottom:-30px;
+}
+
+.slick-dots li {
+    margin: 0 15px;
+}
+.slick-dots li button:before{
+    border: none;
+    background: #919191;
+    color: transparent;
+    cursor: pointer;
+    display: block;
+    height: 2px;
+    width: 32px;
+    opacity:1;
+    border-radius: 7.5px;
+  }
+
+
+.slick-dots li button:hover{
+background:red;
+border:1px solid white;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: #62ff00;
+}

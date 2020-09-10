@@ -1,0 +1,124 @@
+.Container{
+    width:100%;
+}
+.background{
+    background:url('/images/BackgroundBody1.png');
+    height:100%;
+    width:100%;
+}
+
+.YellowLineImg{
+    background:url('/images/Yellowline.png');
+    width: 1px;
+    height: 120px;
+    margin:0 auto;
+}
+
+.TESTINOMIALS{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #f7ac53;
+}
+
+.We_have_worked_with{
+    font-size: 38px;
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    color: white;
+    line-height: 1.636;
+    text-align: center;
+    width: 700px;
+    margin: 2% auto;
+
+}
+
+.ImgsFlexContainer{
+    display:flex;
+    justify-content: center;
+    margin: 5% 0;
+
+}
+
+.logos{
+    flex-basis: 2%;
+    height: 23px;
+    margin: 0px 34px;
+}
+
+
+.SliderbackgroundFlexContainer{
+    display:flex;
+    justify-content: center;
+    
+
+}
+
+.SliderBackground{
+    background:#181818;  
+    flex-basis:34%;
+    margin-bottom: 80px;   
+    box-shadow: 3px 3px 5px 6px #181818;
+    
+}
+
+.text{
+    color: #bbbbbb;
+    font-family: "Merriweather";
+    font-weight: 500;
+    text-align: center;
+    margin: 6% 7%;
+    margin-bottom: 3%;
+    font-size: 13px;
+    line-height: 40px;
+}
+
+.ChildFlexContainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;  
+    margin-bottom: 41.3px;
+
+}
+
+/*.Anthony_Watkins{
+    color: #f7ac53;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 1px;
+}*/
+
+.HotizontalGrayLine{
+    height: 2px;
+    width: 30px;
+    margin: 0 23px;
+    flex-basis: 25%;
+}
+.flexCont{
+    display:flex;
+    flex-direction:column;
+
+}
+
+.Anthony_Watkins{
+    color: #f7ac53;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-align:center;
+    margin:0;
+    margin-top:10px;
+}
+.VP_OF_PRODUCT{
+    color: white;
+    font-family: 'Open Sans';
+    text-align: center;
+    font-size: 12px;
+    margin: 0;
+    position: relative;
+    top: 10px;
+}
